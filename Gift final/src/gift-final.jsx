@@ -1,13 +1,13 @@
 import { useState } from "react";
 
-const Skeb = "/images/IMG-2026001.jpg";
-const Les = "/images/IMG-2026002.jpg";
+const SKEB_IMG = "/images/IMG-2026001.jpg";
+const LES_IMG = "/images/IMG-2026002.jpg";
 
 const GiftFinal = () => (
   <div>
 
-    <img src={Skeb} />
-    <img src={Les} />
+    <img src={SKEB_IMG} />
+    <img src={LES_IMG} />
 
   </div>
 );
