@@ -1,7 +1,16 @@
 import { useState } from "react";
-const SKEB_IMG = "/images/IMG-2026001.jpg";
-const LES_IMG = "/images/IMG-2026002.jpg";
 
+const Skeb = "/images/IMG-2026001.jpg";
+const Les = "/images/IMG-2026002.jpg";
+
+const GiftFinal = () => (
+  <div>
+
+    <img src={Skeb} />
+    <img src={Les} />
+
+  </div>
+);
 const css = `
   @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap');
   * { box-sizing: border-box; margin: 0; padding: 0; }
