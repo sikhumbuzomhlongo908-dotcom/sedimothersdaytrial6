@@ -3,7 +3,7 @@ import { useState } from "react";
 const SKEB_IMG = "/images/IMG-2026001.jpg";
 const LES_IMG = "/images/IMG-2026002.jpg";
 
-const GiftFinal = () => (
+const Giftfinal = () => (
   <div>
 
     <img src={SKEB_IMG} />
